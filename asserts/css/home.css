@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+#app{
+  width:700px ;
+  margin:10vh auto auto auto;
+}
+#input-fields{
+    display: flex;
+    flex-direction:column ;
+    margin:10px auto;
+}
+#input-fields-row{
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-floating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-floating >.form-control , .form-floating>.form-select{ 
+
+ height: 75px;
+    
+}
+.buttons{
+    margin: 10px auto;
+}
+.card>.card-body{
+    display: flex;
+    flex-direction: row;
+}
+.card>.card-body>.detils-card-body{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 25px;
+}
+ .card>.card-body>.form-check  , .card>.card-body>.badge {
+    height: 40px;
+    margin:25px auto;
+}
+.card>.card-body>.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
